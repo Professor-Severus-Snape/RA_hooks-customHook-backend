@@ -2,6 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import bodyParser from 'body-parser';
 
+// создание объекта приложения Express:
 const app = express();
 
 // безопасность в браузере (несовпадение origin):
